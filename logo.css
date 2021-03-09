@@ -1,0 +1,238 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+@font-face{
+  font-family: avantgarde-demi;
+  src: url(./unicode.avantgd.ttf);
+}
+@font-face{
+  font-family: AvantGardeLT-Book;
+  src: url(./AvantGardeLT-Book.otf);
+}
+.main-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  padding: 20vh;
+  
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.text{
+  opacity: 0;
+  width: 64vh;
+  height: 15vh;
+  padding-bottom: 24vh;
+  position: absolute;
+  left: 22vh;
+  }
+  .l-text{
+    font-family: 'avantgarde-demi';
+    font-size: 12vh;
+    color: #a1aeae;
+    letter-spacing: -0.4vh;
+  }
+  .s-text{
+    font-family: 'AvantGardeLT-Book';
+    font-size: 3.18vh;
+    text-align: center;
+    color: #72c166;
+    letter-spacing: -0.01vh;
+  }
+  .italic{
+    color: #72c166;
+    font-family: 'AvantGardeLT-Book';
+    font-size: 12vh;
+    font-style: italic;
+    margin-right: 0.8vh; 
+    margin-left: -0.5vh;
+  }
+.container-circle{
+  margin: auto;
+  position: relative;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 85vh;
+  height: 85vh;
+}
+.larg-circle{
+  width: 84vh;
+  height: 84vh;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-90deg);
+  animation-name: animate1;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+@keyframes animate1 {
+  to{
+  transform: rotate(180deg);
+  }
+}
+.circle{
+  width: 67vh;
+  height: 67vh;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100; 
+  position: absolute;
+}
+.circle-1{
+  width: 55.5vh;
+  height: 55.5vh;
+  position: relative;
+  background: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.semi{
+  height: 13.9vh;
+  width: 17.9vh;
+  border-radius: 86.7vh 86.7vh 0 0;
+}
+.semi-1{
+  background-color: #72c166;
+  transform: rotate(0deg);
+  position: absolute;
+  bottom: 55.6vh;
+  left: 18.7vh;
+}
+.semi-2{
+  background-color: #72c166;
+  transform: rotate(72deg);
+  position: absolute;
+  bottom: 31.2vh;
+  left: 52vh;
+}
+.semi-3{
+  background-color: #72c166;
+  transform: rotate(-72deg);
+  position: absolute;
+  bottom: 31.8vh;
+  left: -14.2vh;
+}
+.semi-4{
+  background-color: #72c166;
+  transform: rotate(-144deg);
+  position: absolute;
+  bottom: -7.3vh;
+  left: -1.7vh;
+}
+.semi-5{
+  background-color: #72c166;
+  transform: rotate(144deg);
+  position: absolute;
+  bottom: -7.1vh;
+  left: 39.5vh;
+} 
+.small-circle{
+  width: 55vh;
+  height: 55vh;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  transform: rotate(-90deg);
+  animation-name: animate2;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+
+}
+@keyframes animate2{
+  to{
+  transform: rotate(-360deg);
+  }
+}
+.s-circle{
+  width: 46vh;
+  height: 46vh;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  position: absolute;
+}
+.xs-circle{
+  width: 40vh;
+  height: 40vh;
+  position: relative;
+  background: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s-semi{
+  height: 6.95vh;
+  width: 10vh;
+  border-radius: 43.35vh 43.35vh 0 0;
+}
+.semi-6{
+  background-color: #72c166;
+  transform: rotate(0deg);
+  position: absolute;
+  bottom: 40vh;
+  left: 15vh;
+}
+.semi-7{
+  background-color: #72c166;
+  transform: rotate(72deg);
+  position: absolute;
+  bottom: 24vh;
+  left: 37.5vh;
+}
+.semi-8{
+  background-color: #72c166;
+  transform: rotate(-72deg);
+  position: absolute;
+  bottom: 24vh;
+  left: -7.5vh;
+}
+.semi-9{
+  background-color: #72c166;
+  transform: rotate(-144deg);
+  position: absolute;
+  bottom: -2.5vh;
+  left: 0.9vh;
+}
+.semi-10{
+  background-color: #72c166;
+  transform: rotate(144deg);
+  position: absolute;
+  bottom: -2.5vh;
+  left: 29vh;
+}
+
+
+
+
+

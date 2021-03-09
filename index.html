@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="logo.css">
+  <title>Logo</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="container">
+      <div class="container-circle">
+        <div class="larg-circle">
+          <div class="circle"></div>
+          <div class="circle-1">
+            <div class="semi-1 semi"></div>
+            <div class="semi-2 semi"></div>
+            <div class="semi-3 semi"></div>
+            <div class="semi-4 semi"></div>
+            <div class="semi-5 semi"></div>
+          </div>
+        </div>
+        <div class="small-circle">
+          <div class="s-circle"></div>
+          <div class="xs-circle">
+            <div class="semi-6 s-semi"></div>
+            <div class="semi-7 s-semi"></div>
+            <div class="semi-8 s-semi"></div>
+            <div class="semi-9 s-semi"></div>
+            <div class="semi-10 s-semi"></div>
+          </div>
+        </div>
+      </div>
+      <div class="text">
+        <p class="l-text">web<span class="italic">e</span>nable</p>
+        <p class="s-text">development, hosting and consultancy</p>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  <script src="anime.min.js"></script>
+  <script>
+    anime({
+      targets: '.container-circle',
+      translateX: [0, '-34vh'],
+      rotateZ: 360,
+      scale: 0.18,
+      duration: 3000,
+      loop: false,
+      easing: 'easeInOutExpo',
+    });
+  </script>
+</body>
+
+</html>
