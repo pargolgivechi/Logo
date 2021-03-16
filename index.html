@@ -11,48 +11,87 @@
 
 <body>
   <div class="main-container">
-    <div class="container">
-      <div class="container-circle">
-        <div class="larg-circle">
-          <div class="circle"></div>
-          <div class="circle-1">
-            <div class="semi-1 semi"></div>
-            <div class="semi-2 semi"></div>
-            <div class="semi-3 semi"></div>
-            <div class="semi-4 semi"></div>
-            <div class="semi-5 semi"></div>
+    <div class="page">
+      <div class="container">
+        <div class="container-circle">
+          <div class="larg-circle">
+            <div class="circle"></div>
+            <div class="circle-1">
+              <div class="semi-1 semi"></div>
+              <div class="semi-2 semi"></div>
+              <div class="semi-3 semi"></div>
+              <div class="semi-4 semi"></div>
+              <div class="semi-5 semi"></div>
+            </div>
+          </div>
+          <div class="small-circle">
+            <div class="s-circle"></div>
+            <div class="xs-circle">
+              <div class="semi-6 s-semi"></div>
+              <div class="semi-7 s-semi"></div>
+              <div class="semi-8 s-semi"></div>
+              <div class="semi-9 s-semi"></div>
+              <div class="semi-10 s-semi"></div>
+            </div>
           </div>
         </div>
-        <div class="small-circle">
-          <div class="s-circle"></div>
-          <div class="xs-circle">
-            <div class="semi-6 s-semi"></div>
-            <div class="semi-7 s-semi"></div>
-            <div class="semi-8 s-semi"></div>
-            <div class="semi-9 s-semi"></div>
-            <div class="semi-10 s-semi"></div>
-          </div>
+        <div class="text">
+          <p class="l-text">web<span class="green-letter">e</span>nable</p>
         </div>
       </div>
-      <div class="text">
-        <p class="l-text">web<span class="italic">e</span>nable</p>
-        <p class="s-text">development, hosting and consultancy</p>
+      <div class="main-text">
+        <div class="text-2">
+          <div>
+            <div class="green-area-1">
+              <h1>//zoekt developers</h1>
+              <h1 class="yellow-text">[PHP, C#]</h1>
+            </div>
+            <h1 class="gray-text">Werken in Hoorn</h1>
+            <h1 class="white-text">webenable.nl/jobs</h1>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <script src="app.js"></script>
-  <script src="anime.min.js"></script>
-  <script>
-    anime({
-      targets: '.container-circle',
-      translateX: [0, '-34vh'],
-      rotateZ: 360,
-      scale: 0.2,
-      duration: 3000,
-      loop: false,
-      easing: 'easeInOutExpo',
-    });
-  </script>
+    <script src="app.js"></script>
+    <script src="anime.min.js"></script>
+    <script>
+      anime({
+        targets: '.container-circle',
+        translateX: [0, '-45vh'],
+        rotateZ: 360,
+        scale: 0.3,
+        duration: 3000,
+        loop: false,
+        easing: 'easeInOutExpo',
+      });
+      anime({
+        targets: '.container',
+        translateY: [0, '-33vh'],
+        scale: 1,
+        duration: 2000,
+        delay: 1000,
+        loop: false,
+        easing: 'easeInOutExpo',
+      });
+      anime({
+        targets: '.main-text',
+        translateY: [0, '-67vh'],
+        scale: 1,
+        duration: 2000,
+        delay: 1000,
+        loop: false,
+        easing: 'easeInOutExpo',
+      });
+      anime({
+        targets: '.page',
+        translateY: [0, '-59vh'],
+        scale: 1,
+        duration: 2000,
+        delay: 3800,
+        loop: false,
+        easing: 'easeInOutExpo',
+      });
+    </script>
 </body>
 
 </html>

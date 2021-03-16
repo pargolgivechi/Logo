@@ -9,54 +9,56 @@
   src: url(./unicode.avantgd.ttf);
 }
 @font-face{
-  font-family: AvantGardeLT-Book;
-  src: url(./AvantGardeLT-Book.otf);
+  font-family: Consolas;
+  src: url(./Consolas\ Bold.ttf);
 }
-.main-container {
+@font-face{
+  font-family: Metropolis-SemiBold;
+  src: url(./Metropolis-SemiBold.otf);
+}
+.main-container{
   position: absolute;
   top: 50%;
   left: 50%;
   -ms-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
-  padding: 20vh;
-  
+  /* padding: 8vh; */
+  height: 100vh;
+  /* background-color: red; */
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .container{
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  height: 100vh;
+  /* background-color: yellow; */
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .text{
   opacity: 0;
-  width: 64vh;
-  height: 15vh;
-  padding-bottom: 24vh;
+  width: 85.5vh;
+  height: 20vh;
+  padding-bottom: 27vh;
   position: absolute;
-  left: 22vh;
+  left: 38vh;
+  /* background-color: #ffff00; */
   }
-  .l-text{
-    font-family: 'avantgarde-demi';
-    font-size: 12vh;
-    color: #a1aeae;
-    letter-spacing: -0.4vh;
-  }
-  .s-text{
-    font-family: 'AvantGardeLT-Book';
-    font-size: 3.18vh;
-    text-align: center;
-    color: #72c166;
-    letter-spacing: -0.01vh;
-  }
-  .italic{
-    color: #72c166;
-    font-family: 'AvantGardeLT-Book';
-    font-size: 12vh;
-    font-style: italic;
-    margin-right: 0.8vh; 
-    margin-left: -0.5vh;
-  }
+.l-text{
+  font-family: 'avantgarde-demi';
+  font-size: 16vh;
+  color: #819596;
+  letter-spacing: -0.4vh;
+}
+.green-letter{
+  color: #5ab65f;
+  margin-left: 0.4vh;
+  margin-right: 0.1vh;
+}
 .container-circle{
   margin: auto;
   position: relative;
@@ -65,8 +67,9 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  width: 85vh;
-  height: 85vh;
+  width: 133vh;
+  height: 30vh;
+  /* margin-bottom: 0; */
 }
 .larg-circle{
   width: 84vh;
@@ -88,8 +91,8 @@
   }
 }
 .circle{
-  width: 67vh;
-  height: 67vh;
+  width: 64.5vh;
+  height: 64.5vh;
   background: white;
   border-radius: 50%;
   display: flex;
@@ -115,35 +118,35 @@
   border-radius: 86.7vh 86.7vh 0 0;
 }
 .semi-1{
-  background-color: #72c166;
+  background-color: #5ab65f;
   transform: rotate(0deg);
   position: absolute;
   bottom: 55.6vh;
   left: 18.7vh;
 }
 .semi-2{
-  background-color: #72c166;
+  background-color: #5ab65f;
   transform: rotate(72deg);
   position: absolute;
   bottom: 31.2vh;
   left: 52vh;
 }
 .semi-3{
-  background-color: #72c166;
+  background-color: #5ab65f;
   transform: rotate(-72deg);
   position: absolute;
   bottom: 31.8vh;
   left: -14.2vh;
 }
 .semi-4{
-  background-color: #72c166;
+  background-color: #5ab65f;
   transform: rotate(-144deg);
   position: absolute;
   bottom: -7.3vh;
   left: -1.7vh;
 }
 .semi-5{
-  background-color: #72c166;
+  background-color: #5ab65f;
   transform: rotate(144deg);
   position: absolute;
   bottom: -7.1vh;
@@ -163,7 +166,6 @@
   animation-name: animate2;
   animation-duration: 1s;
   animation-iteration-count: 1;
-
 }
 @keyframes animate2{
   to{
@@ -171,8 +173,8 @@
   }
 }
 .s-circle{
-  width: 46vh;
-  height: 46vh;
+  width: 42vh;
+  height: 42vh;
   background: white;
   border-radius: 50%;
   display: flex;
@@ -180,10 +182,10 @@
   justify-content: center;
   z-index: 100;
   position: absolute;
-}
+} 
 .xs-circle{
-  width: 40vh;
-  height: 40vh;
+  width: 39vh;
+  height: 39vh;
   position: relative;
   background: transparent;
   border-radius: 50%;
@@ -192,47 +194,81 @@
   justify-content: center;
 }
 .s-semi{
-  height: 6.95vh;
-  width: 10vh;
+  height: 7vh;
+  width: 11vh;
   border-radius: 43.35vh 43.35vh 0 0;
 }
 .semi-6{
-  background-color: #72c166;
+  background-color: #5ab65f;
   transform: rotate(0deg);
   position: absolute;
-  bottom: 40vh;
-  left: 15vh;
+  bottom: 39vh;
+  left: 14vh;
 }
 .semi-7{
-  background-color: #72c166;
+  background-color: #5ab65f;
   transform: rotate(72deg);
   position: absolute;
-  bottom: 24vh;
-  left: 37.5vh;
+  bottom: 23vh;
+  left: 36vh;
 }
 .semi-8{
-  background-color: #72c166;
+  background-color: #5ab65f;
   transform: rotate(-72deg);
   position: absolute;
-  bottom: 24vh;
-  left: -7.5vh;
+  bottom: 23vh;
+  left: -8vh;
 }
 .semi-9{
-  background-color: #72c166;
+  background-color: #5ab65f;
   transform: rotate(-144deg);
   position: absolute;
-  bottom: -2.5vh;
-  left: 0.9vh;
+  bottom: -2.8vh;
+  left: 0.6vh;
 }
 .semi-10{
-  background-color: #72c166;
+  background-color: #5ab65f;
   transform: rotate(144deg);
   position: absolute;
-  bottom: -2.5vh;
-  left: 29vh;
+  bottom: -2.8vh;
+  left: 27.5vh;
 }
-
-
-
+.text-2{
+  font-family: Metropolis-SemiBold;
+  font-size: 5.6vh;
+  width: 133vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5ab65f;
+  color: #fff;
+  text-align: center;
+  padding-top: 10vh;
+  padding-bottom: 4vh;
+}
+.main-text{
+  display: none;
+}
+.green-area-1{
+  font-family: Consolas;
+}
+.yellow-text{
+  color: #fcee21;
+  font-size: 22.9vh;
+  padding-top: 7vh;
+  padding-bottom: 9vh;
+}
+.gray-text{
+  font-size: 13vh;
+  width: 133.5vh;
+  background-color: #fff;
+  color:#758687;
+  padding-top: 13vh;
+  padding-bottom: 13vh;
+}
+.white-text{
+  padding-top: 5vh;
+  font-size: 12vh;
+}
 
 
