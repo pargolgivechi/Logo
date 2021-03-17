@@ -6,10 +6,6 @@ setTimeout(function () {
   text.style.transition = "opacity 2s";
 }, 2000);
 setTimeout(function () {
-  text.style.opacity = "0";
-  text.style.transition = "opacity 2s";
-}, 5000);
-setTimeout(function () {
   main.style.display = "block";
 }, 1000);
 setTimeout(function () {

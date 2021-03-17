@@ -23,9 +23,7 @@
   -ms-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
-  /* padding: 8vh; */
   height: 100vh;
-  /* background-color: red; */
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -35,7 +33,6 @@
   justify-content: center;
   position: relative;
   height: 100vh;
-  /* background-color: yellow; */
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -46,7 +43,6 @@
   padding-bottom: 27vh;
   position: absolute;
   left: 38vh;
-  /* background-color: #ffff00; */
   }
 .l-text{
   font-family: 'avantgarde-demi';
@@ -69,7 +65,6 @@
   border-radius: 50%;
   width: 133vh;
   height: 30vh;
-  /* margin-bottom: 0; */
 }
 .larg-circle{
   width: 84vh;
@@ -110,7 +105,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 .semi{
   height: 13.9vh;
@@ -270,5 +264,3 @@
   padding-top: 5vh;
   font-size: 12vh;
 }
-
-
